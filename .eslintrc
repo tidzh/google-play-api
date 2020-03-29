@@ -9,6 +9,7 @@
     "standard"
   ],
   "rules": {
-    "no-unused-vars": [2, { "vars": "all", "args": "after-used" }]
+    "no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
+    "quotes": [2, "double", { "avoidEscape": true }]
   }
 }

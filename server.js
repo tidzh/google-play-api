@@ -8,6 +8,6 @@ const port = process.env.PORT || 4000;
 
 app.use("/api/", router);
 
-app.listen(port, function() {
+app.listen(port, () => {
   console.log("Server started on port", port);
 });
